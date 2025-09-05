@@ -1,0 +1,40 @@
+# Node
+node_modules/
+material-rental-app/node_modules/
+material-rental-app/backend/node_modules/
+material-rental-app/frontend/node_modules/
+
+# Flutter / Dart
+asset/.dart_tool/
+asset/build/
+asset/.flutter-plugins
+asset/.flutter-plugins-dependencies
+asset/.packages
+asset/pubspec.lock
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/logs/**
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env & secrets
+material-rental-app/backend/.env
+**/.env
+
+# Uploads / generated media
+material-rental-app/backend/src/uploads/
+
+# Coverage / reports
+coverage/
+**/coverage/
+
+# Misc cache
+**/.cache/
