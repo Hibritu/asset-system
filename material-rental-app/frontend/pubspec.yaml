@@ -1,0 +1,24 @@
+name: material_rental_app
+description: A Flutter application for renting materials with QR code functionality.
+publish_to: 'none' 
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  provider: ^5.0.0
+  qr_flutter: ^4.0.0
+  flutter_svg: ^0.22.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/

@@ -1,0 +1,24 @@
+{
+  "name": "material-rental-app",
+  "version": "1.0.0",
+  "description": "This project is a Material Rental Application that allows users to rent various materials. The application consists of a Node.js Express backend with a MongoDB database and a Flutter frontend. Users can list materials, view details, and request rentals, while admins can manage materials and approve rental requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "qrcode": "^1.5.4",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
